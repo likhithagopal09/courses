@@ -1,0 +1,124 @@
+
+body{
+  background-color: #EAD7BB;
+}
+
+.dropdown-menu {
+  background-color: rgb(245, 240, 246);
+}
+
+.active {
+  font-size: larger;
+}
+
+#image {
+  padding-top: 68px;
+}
+
+.d-block {
+  object-fit: cover;
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+  .d-block {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .d-block {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 992px) {
+  .d-block {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.dropdown-menu {
+  display: none;
+}
+
+/* For screens larger than laptops (e.g., laptops and desktops) */
+@media (min-width: 992px) {
+  .desktop-dropdown:hover + .dropdown-menu {
+    display: block;
+  }
+}
+.text-body-secondary {
+  font-size: large;
+}
+/* .gradient-background {
+  background: linear-gradient(300deg, #c97ada, #ae90c3, #d38d84);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+} */
+
+/* .text-body-emphasis {
+  font-style :italic;
+} */
+
+h1{
+  color: #093949;
+}
+h6{
+  color: #083847;
+}
+.wcu-img{
+  height: 100%;
+  width: 100%;
+}
+
+
+@media (min-width: 220px) {
+.hello {
+max-width: 100%;
+height: auto;
+}
+}
+
+.hello{
+  height : 280px;
+}
+.wcu-heding-section-name{
+  font-family: 'Times New Roman', Times, serif;
+  font: size 500%;
+}
+.wcu-heading{
+  text-align: center;
+  color: rgb(60, 16, 95);
+}
+p{
+  text-align: center;
+}
+#wcuSection{
+  background-color: #bf9dce;
+}
+#fontStyle{
+  font-family: cursive;
+}
+
+.hii{
+  background-color: #7d7d7e;
+}
+
+.bye{
+  background-color: rgb(102, 98, 98);
+}
+/* .py-5{
+  background-color: rgb(102, 98, 98);
+} */
+
+/* .footer-cl{
+  background-color: rgb(61, 53, 53);
+} */
+.p-0{
+  color: #0a3d4c;
+}
